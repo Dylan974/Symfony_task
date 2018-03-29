@@ -1,0 +1,8 @@
+task:
+    resource: "@TaskBundle/Controller/TaskController.php"
+    type:     rest
+    prefix:   /api
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
